@@ -10,9 +10,9 @@ function clearDisplay(){
 }
 function calculate(){
     try{
-        display.value = eval(display.value);
+        display.value = eval(display.value);//Ugradjena funkcija za digitron
     }
     catch(error){
-        display.value = "Error";
+        display.value = "Error";// Uslucaju da funkcija prikaze error uhvati je i ispisi sledecu poruku
     }
 }
